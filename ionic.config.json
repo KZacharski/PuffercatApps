@@ -1,0 +1,7 @@
+{
+  "name": "Puffercat Apps",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
