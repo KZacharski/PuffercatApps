@@ -83,17 +83,20 @@
         </ion-toolbar>
       </ion-header>
       <ion-grid>
-  <ion-row class="column-standard">
+<ion-row class="column-standard">
     <ion-col size="auto">
       <a href="/details/PufferIcons"><img src="../assets/Icon_PufferIcons.png" class="icon"></a>
     </ion-col>
     <ion-col size="auto" class="description-column">
         <ion-row>
-          <ion-column><h4 class="size-appname">PufferIcons</h4></ion-column>
+          <ion-column><a href="/details/PufferIcons" class="hidden-link"><h4 class="size-appname">PufferIcons</h4></a></ion-column>
         </ion-row>
         <ion-row>
-          <ion-column><ion-icon :icon="logoAndroid" class="size-appname-icon"/></ion-column>
+          <a href="/details/PufferIcons"><ion-column><ion-icon :icon="logoAndroid" class="size-appname-icon hidden-link"/></ion-column></a>
         </ion-row>
+    </ion-col>
+    <ion-col>
+
     </ion-col>
     <ion-col class="download-column">
       <ion-button shape="round"><ion-icon :icon="arrowDown" /></ion-button>
@@ -112,7 +115,7 @@
         </ion-row>
     </ion-col>
     <ion-col class="download-column">
-      <ion-button shape="round"><ion-icon :icon="arrowDown" /></ion-button>
+      <a href="https://google.com"><ion-button shape="round"><ion-icon :icon="arrowDown" /></ion-button></a>
     </ion-col>
   </ion-row>
   <ion-row class="column-standard">
@@ -147,7 +150,7 @@
       <ion-button shape="round"><ion-icon :icon="arrowDown" /></ion-button>
     </ion-col>
   </ion-row>
-  <ion-row class="column-standard">
+  <ion-row class="column-bottom">
     <ion-col size="auto">
       <img src="../assets/Icon_Tipper.png" class="icon">
     </ion-col>
@@ -248,5 +251,16 @@ export default  defineComponent({
   }
 } .aboutFrameworkLogo {
   width: 175px;
-}
+} .column-bottom {
+    background-color: var(--ion-color-light-shade);
+    color: var(--ion-color-light-contrast);
+    padding: 15px;
+    border-radius: 25px;
+    margin: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  } .hidden-link {
+    text-decoration-line: none;
+    color: var(--ion-color-light-contrast);
+  }
 </style>

@@ -2,12 +2,18 @@
     <ion-page>
       <ion-header>
         <ion-toolbar>
+    <ion-buttons slot="start">
+    <ion-back-button default-href="#"></ion-back-button>
+  </ion-buttons>
           <ion-title>PufferIcons</ion-title>
         </ion-toolbar>
       </ion-header>
       <ion-content :fullscreen="true">
         <ion-header collapse="condense">
           <ion-toolbar>
+            <ion-buttons slot="start">
+    <ion-back-button default-href="#"></ion-back-button>
+  </ion-buttons>
             <ion-title size="large">PufferIcons</ion-title>
           </ion-toolbar>
         </ion-header>
@@ -111,7 +117,7 @@
   
   export default  defineComponent({
     name: 'Tab1Page',
-    components: {IonHeader, IonToolbar, IonTitle, IonContent, IonPage, IonCol, IonGrid, IonRow, IonButton, IonIcon},
+    components: {IonHeader, IonToolbar, IonTitle, IonContent, IonPage, IonCol, IonGrid, IonRow, IonButton, IonIcon, IonButtons},
     setup() {
       return {
         logoAndroid,
