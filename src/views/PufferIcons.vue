@@ -111,10 +111,7 @@
   
   export default  defineComponent({
     name: 'Tab1Page',
-    components: {IonHeader, IonToolbar, IonTitle, IonContent, IonPage, IonCol, IonGrid, IonRow, IonButton, IonButtons, IonIcon,
-        IonModal,
-        IonItem,
-        IonList },
+    components: {IonHeader, IonToolbar, IonTitle, IonContent, IonPage, IonCol, IonGrid, IonRow, IonButton, IonIcon},
     setup() {
       return {
         logoAndroid,
