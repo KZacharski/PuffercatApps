@@ -51,6 +51,42 @@
         </ul>
     </ion-col>
     </ion-row>
+    <ion-row class="column-standard">
+      <ion-col>
+        <h4><strong>Description</strong></h4>
+        <strong>Notes:
+Ignore Google Play Protect, my signature is different than original Lawnicons, but I can't change the package name because then Lawnchair would stop recognizing this app as Lawnicons.</strong><br>
+PufferIcons is a fork of Lawnicons adding extra icons and with more frequent releases based on the current Lawnicons dev source.<br>
+
+Lawnicons is an add-on for adding themed icons to Lawnchair 12 Alpha 5 and above, the latest version of Lawnchair Launcher. This addon is now the source of all themed icons, for simplicity.<br>
+<br>
+    </ion-col>
+    </ion-row>
+    <ion-row class="column-standard">
+      <ion-col>
+        <h4><strong>Screenshots</strong></h4>
+        <div class="scrollScreenshots">
+        <img src="../assets/Screenshot_PufferIcons_1.png" class="screenshot">
+        <img src="../assets/Screenshot_PufferIcons_2.png" class="screenshot">
+        <img src="../assets/Screenshot_PufferIcons_3.png" class="screenshot">
+        </div>
+        <br>
+    </ion-col>
+    </ion-row>
+    <ion-row class="column-standard">
+      <ion-col>
+        <h4><strong>Links</strong></h4>
+        <a href="https://pufferrom.t.me" class="">Telegram channel (releases)</a>
+        <br>
+        <a href="https://puffercatchannel.t.me" class="">Telegram channel (general)</a>
+        <br>
+        <a href="https://puffercatrom.t.me" class="">Support group</a>
+        <br>
+        <a href="https://github.com/KZacharski/PufferIcons" class="">GitHub repo</a>
+        <br>
+        <br>
+    </ion-col>
+    </ion-row>
   </ion-grid>
       </ion-content>
     </ion-page>
@@ -144,5 +180,19 @@
       margin-top: 15px;
     } ion-button {
     --box-shadow: 0px;
+  } .screenshot {
+    height: 600px;
+    border-radius: 30px;
+  } div.scrollScreenshots {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollScreenshots img {
+  display: inline-block;
+  padding: 10px;
+} .hidden-link {
+    text-decoration-line: none;
+    color: var(--ion-color-light-contrast);
   }
   </style>
