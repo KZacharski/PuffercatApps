@@ -85,7 +85,7 @@
       <ion-grid>
   <ion-row class="column-standard">
     <ion-col size="auto">
-      <img src="../assets/Icon_PufferIcons.png" class="icon">
+      <a href="/details/PufferIcons"><img src="../assets/Icon_PufferIcons.png" class="icon"></a>
     </ion-col>
     <ion-col size="auto" class="description-column">
         <ion-row>

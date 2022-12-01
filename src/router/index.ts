@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
 import { RouteRecordRaw } from 'vue-router';
 import TabsPage from '../views/TabsPage.vue'
+import Apps from '../views/Apps.vue'
+import PufferIcons from '../views/PufferIcons.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -24,6 +26,11 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('@/views/ComingSoon.vue')
       }
     ]
+  },
+  {
+    path: '/details/PufferIcons',
+    name: 'PufferIcons',
+    component: PufferIcons,
   }
 ]
 
