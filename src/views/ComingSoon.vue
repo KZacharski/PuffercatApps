@@ -164,7 +164,7 @@ export default  defineComponent({
   },
     methods: {
       dismiss() {
-        this.$refs.modal.$el.dismiss();
+        (this.$refs.modal as InstanceType<typeof IonModal>).$el.dismiss();
       },
     }
 });
