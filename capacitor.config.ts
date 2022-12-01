@@ -1,7 +1,7 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
+  appId: 'xyz.puffercat.apps',
   appName: 'Puffercat Apps',
   webDir: 'dist',
   bundledWebRuntime: false
