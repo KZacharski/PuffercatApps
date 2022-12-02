@@ -99,23 +99,49 @@
 
     </ion-col>
     <ion-col class="download-column">
-      <ion-button shape="round"><ion-icon :icon="arrowDown" /></ion-button>
+      <ion-button shape="round" href="https://cdn.puffercat.xyz/c/puffericons/puffericons-1.1.4.apk"><ion-icon :icon="arrowDown" /></ion-button>
     </ion-col>
   </ion-row>
   <ion-row class="column-standard">
     <ion-col size="auto">
-      <img src="../assets/Icon_Puffercat_Apps.png" class="icon">
+      <a href="/details/Puffercat_Apps"><img src="../assets/Icon_Puffercat_Apps.png" class="icon"></a>
     </ion-col>
     <ion-col size="auto" class="description-column">
         <ion-row>
-          <ion-column><h4 class="size-appname">Puffercat Apps</h4></ion-column>
+          <a href="/details/Puffercat_Apps" class="hidden-link"><ion-column><h4 class="size-appname">Puffercat Apps</h4></ion-column></a>
         </ion-row>
         <ion-row>
-          <ion-column><ion-icon :icon="logoPwa" class="size-appname-icon"/></ion-column>
+          <a href="/details/Puffercat_Apps" class="hidden-link"><ion-column><ion-icon :icon="logoPwa" class="size-appname-icon"/></ion-column></a>
         </ion-row>
     </ion-col>
     <ion-col class="download-column">
-      <a href="https://google.com"><ion-button shape="round"><ion-icon :icon="arrowDown" /></ion-button></a>
+      <ion-button shape="round" id="pufferAppsModalOpen"><ion-icon :icon="arrowDown" /></ion-button>
+      <ion-modal ref="modal" trigger="pufferAppsModalOpen">
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>Install Puffercat Apps</ion-title>
+            <ion-buttons slot="end">
+              <ion-button @click="dismiss()">Close</ion-button>
+            </ion-buttons>
+          </ion-toolbar>
+        </ion-header>
+        <ion-content class="ion-padding">
+          <h2>Guide for Chrome for Android</h2>
+          <h4>For other browsers, search "Install PWA [name of your browser]" in your search engine of choice</h4>
+            <p>1. Go to "<a href="https://apps.puffercat.xyz">https://apps.puffercat.xyz</a>".</p>
+            <img src="../assets/Puffercat_Apps_Guide_1.png" class="installGuideImage">
+            <p>2. Open the menu (on the browser's bar, not on the website)</p>
+            <img src="../assets/Puffercat_Apps_Guide_2.png" class="installGuideImage">
+            <p>3. Select "Install app" or "Add to home screen"</p>
+            <img src="../assets/Puffercat_Apps_Guide_3.png" class="installGuideImage">
+            <p>4. Select "Install"</p>
+            <img src="../assets/Puffercat_Apps_Guide_4.png" class="installGuideImage">
+            <p>5. Done. You should get this notification and a new icon should show up on your home screen</p>
+            <img src="../assets/Puffercat_Apps_Guide_5.png" class="installGuideImage">
+            <img src="../assets/Puffercat_Apps_Guide_6.png" class="installGuideImage">
+            <br><br><br><br><br><br>
+        </ion-content>
+      </ion-modal>
     </ion-col>
   </ion-row>
   <ion-row class="column-standard">
@@ -262,5 +288,9 @@ export default  defineComponent({
   } .hidden-link {
     text-decoration-line: none;
     color: var(--ion-color-light-contrast);
+  } .installGuideImage {
+    height: auto;
+    width: 300px;
+    border-radius: 20px;
   }
 </style>
