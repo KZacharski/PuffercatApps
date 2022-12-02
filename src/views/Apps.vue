@@ -64,6 +64,12 @@
     <ion-item>
       <ion-label><a href="https://ionicframework.com"><img src="../assets/Logo_Ionic.png" class="aboutFrameworkLogo"></a></ion-label>
     </ion-item>
+    <ion-item>
+      <ion-label><a href="https://vercel.com/">
+        <img src="../assets/Logo_Vercel.png" class="vueLogoLight aboutFrameworkLogo">
+        <img src="../assets/Logo_Vercel_Dark.png" class="vueLogoDark aboutFrameworkLogo">
+      </a></ion-label>
+    </ion-item>
   </ion-list>
   <br><br><br>
   </div>
@@ -162,18 +168,18 @@
   </ion-row>
   <ion-row class="column-standard">
     <ion-col size="auto">
-      <img src="../assets/Icon_Blurry.png" class="icon">
+      <a href="/details/Blurry_Wallpapers" class="hidden-link"><img src="../assets/Icon_Blurry.png" class="icon"></a>
     </ion-col>
     <ion-col size="auto" class="description-column">
         <ion-row>
-          <ion-column><h4 class="size-appname">Blurry Wallpapers</h4></ion-column>
+          <a href="/details/Blurry_Wallpapers" class="hidden-link"><ion-column><h4 class="size-appname">Blurry Wallpapers</h4></ion-column></a>
         </ion-row>
         <ion-row>
-          <ion-column><ion-icon :icon="logoAndroid" class="size-appname-icon"/></ion-column>
+          <a href="/details/Blurry_Wallpapers" class="hidden-link"><ion-column><ion-icon :icon="logoAndroid" class="size-appname-icon"/></ion-column></a>
         </ion-row>
     </ion-col>
     <ion-col class="download-column">
-      <ion-button shape="round"><ion-icon :icon="arrowDown" /></ion-button>
+      <ion-button shape="round" href="https://cdn.puffercat.xyz/c/puffercat-apps/apks/Blurry_Wallpapers/blurry-wallpapers-1.0.3.apk"><ion-icon :icon="arrowDown" /></ion-button>
     </ion-col>
   </ion-row>
   <ion-row class="column-bottom">

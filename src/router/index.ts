@@ -5,6 +5,7 @@ import Apps from '../views/Apps.vue'
 import PufferIcons from '../views/PufferIcons.vue'
 import Puffercat_Apps from '../views/Puffercat_Apps.vue'
 import Shapes from '../views/Shapes.vue'
+import Blurry_Wallpapers from '../views/Blurry_Wallpapers.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -44,6 +45,12 @@ const routes: Array<RouteRecordRaw> = [
     name: 'Shapes',
     component: Shapes,
   },
+  {
+    path: '/details/Blurry_Wallpapers',
+    name: 'Blurry Wallpapers',
+    component: Blurry_Wallpapers,
+  },
+  
 ]
 
 const router = createRouter({

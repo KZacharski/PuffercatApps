@@ -64,6 +64,12 @@
     <ion-item>
       <ion-label><a href="https://ionicframework.com"><img src="../assets/Logo_Ionic.png" class="aboutFrameworkLogo"></a></ion-label>
     </ion-item>
+    <ion-item>
+      <ion-label><a href="https://vercel.com/">
+        <img src="../assets/Logo_Vercel.png" class="vueLogoLight aboutFrameworkLogo">
+        <img src="../assets/Logo_Vercel_Dark.png" class="vueLogoDark aboutFrameworkLogo">
+      </a></ion-label>
+    </ion-item>
   </ion-list>
   <br><br><br>
   </div>
