@@ -4,6 +4,7 @@ import TabsPage from '../views/TabsPage.vue'
 import Apps from '../views/Apps.vue'
 import PufferIcons from '../views/PufferIcons.vue'
 import Puffercat_Apps from '../views/Puffercat_Apps.vue'
+import Shapes from '../views/Shapes.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -37,6 +38,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/details/Puffercat_Apps',
     name: 'Puffercat Apps',
     component: Puffercat_Apps,
+  },
+  {
+    path: '/details/Shapes',
+    name: 'Shapes',
+    component: Shapes,
   },
 ]
 

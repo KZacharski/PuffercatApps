@@ -146,18 +146,18 @@
   </ion-row>
   <ion-row class="column-standard">
     <ion-col size="auto">
-      <img src="../assets/Icon_Shapes.png" class="icon">
+      <a href="/details/Shapes" class="hidden-link"><img src="../assets/Icon_Shapes.png" class="icon"></a>
     </ion-col>
     <ion-col size="auto" class="description-column">
         <ion-row>
-          <ion-column><h4 class="size-appname">Shapes</h4></ion-column>
+          <a href="/details/Shapes" class="hidden-link"><ion-column><h4 class="size-appname">Shapes</h4></ion-column></a>
         </ion-row>
         <ion-row>
-          <ion-column><ion-icon :icon="logoAndroid" class="size-appname-icon"/></ion-column>
+          <a href="/details/Shapes" class="hidden-link"><ion-column><ion-icon :icon="logoAndroid" class="size-appname-icon"/></ion-column></a>
         </ion-row>
     </ion-col>
     <ion-col class="download-column">
-      <ion-button shape="round"><ion-icon :icon="arrowDown" /></ion-button>
+      <ion-button shape="round" href="https://cdn.puffercat.xyz/c/puffercat-apps/apks/Shapes/shapes-1.0.4.apk"><ion-icon :icon="arrowDown" /></ion-button>
     </ion-col>
   </ion-row>
   <ion-row class="column-standard">
