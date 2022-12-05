@@ -150,7 +150,7 @@ import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonCol, IonGrid, 
     IonList,
     IonAvatar,
     IonImg,
-    IonLabel } from '@ionic/vue';
+    IonLabel, IonPopover } from '@ionic/vue';
 import ExploreContainer from '@/components/ExploreContainer.vue';
 import { logoAndroid, arrowDown, logoPwa, ellipsisVertical } from 'ionicons/icons';
 
@@ -159,7 +159,7 @@ export default  defineComponent({
   components: {IonHeader, IonToolbar, IonTitle, IonContent, IonPage, IonCol, IonGrid, IonRow, IonButton, IonButtons, IonIcon,
       IonModal,
       IonItem,
-      IonList },
+      IonList, IonPopover },
   setup() {
     return {
       logoAndroid,
