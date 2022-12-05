@@ -91,14 +91,14 @@
       <ion-grid>
   <ion-row class="column-standard">
     <ion-col size="auto">
-      <img src="../assets/Icon_PufferIcons_Filled.png" class="icon">
+      <a href="/details/PufferIcons_Filled" class="hidden-link"><img src="../assets/Icon_PufferIcons_Filled.png" class="icon"></a>
     </ion-col>
     <ion-col size="auto" class="description-column">
         <ion-row>
-          <ion-column><h4 class="size-appname">PufferIcons Filled</h4></ion-column>
+          <a href="/details/PufferIcons_Filled" class="hidden-link"><ion-column><h4 class="size-appname">PufferIcons Filled</h4></ion-column></a>
         </ion-row>
         <ion-row>
-          <ion-column><ion-icon :icon="logoAndroid" class="size-appname-icon"/></ion-column>
+          <a href="/details/PufferIcons_Filled" class="hidden-link"><ion-column><ion-icon :icon="logoAndroid" class="size-appname-icon"/></ion-column></a>
         </ion-row>
     </ion-col>
     <ion-col class="download-column">
@@ -107,14 +107,14 @@
   </ion-row>
   <ion-row class="column-standard">
     <ion-col size="auto">
-      <img src="../assets/Icon_WallCat.png" class="icon">
+      <a href="/details/WallCat" class="hidden-link"><img src="../assets/Icon_WallCat.png" class="icon"></a>
     </ion-col>
     <ion-col size="auto" class="description-column">
         <ion-row>
-          <ion-column><h4 class="size-appname">WallCat</h4></ion-column>
+          <a href="/details/WallCat" class="hidden-link"><ion-column><h4 class="size-appname">WallCat</h4></ion-column></a>
         </ion-row>
         <ion-row>
-          <ion-column><ion-icon :icon="logoAndroid" class="size-appname-icon"/></ion-column>
+          <a href="/details/WallCat" class="hidden-link"><ion-column><ion-icon :icon="logoAndroid" class="size-appname-icon"/></ion-column></a>
         </ion-row>
     </ion-col>
     <ion-col class="download-column">
@@ -123,14 +123,14 @@
   </ion-row>
   <ion-row class="column-standard">
     <ion-col size="auto">
-      <img src="../assets/Icon_Tipper3.png" class="icon">
+      <a href="/details/Tipper3" class="hidden-link"><img src="../assets/Icon_Tipper3.png" class="icon"></a>
     </ion-col>
     <ion-col size="auto" class="description-column">
         <ion-row>
-          <ion-column><h4 class="size-appname">Tipper3</h4></ion-column>
+          <a href="/details/Tipper3" class="hidden-link"><ion-column><h4 class="size-appname">Tipper3</h4></ion-column></a>
         </ion-row>
         <ion-row>
-          <ion-column><ion-icon :icon="logoAndroid" class="size-appname-icon"/></ion-column>
+         <a href="/details/Tipper3" class="hidden-link"><ion-column><ion-icon :icon="logoAndroid" class="size-appname-icon"/></ion-column></a>
         </ion-row>
     </ion-col>
     <ion-col class="download-column">
@@ -222,5 +222,8 @@ export default  defineComponent({
   }
 } .aboutFrameworkLogo {
   width: 175px;
-}
+} .hidden-link {
+    text-decoration-line: none;
+    color: var(--ion-color-light-contrast);
+  }
 </style>

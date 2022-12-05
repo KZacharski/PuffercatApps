@@ -6,6 +6,10 @@ import PufferIcons from '../views/PufferIcons.vue'
 import Puffercat_Apps from '../views/Puffercat_Apps.vue'
 import Shapes from '../views/Shapes.vue'
 import Blurry_Wallpapers from '../views/Blurry_Wallpapers.vue'
+import Tipper_by_myCALC from '../views/Tipper_by_myCALC.vue'
+import PufferIcons_Filled from '../views/PufferIcons_Filled.vue'
+import WallCat from '../views/WallCat.vue'
+import Tipper3 from '../views/Tipper3.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -50,7 +54,26 @@ const routes: Array<RouteRecordRaw> = [
     name: 'Blurry Wallpapers',
     component: Blurry_Wallpapers,
   },
-  
+  {
+    path: '/details/Tipper_by_myCALC',
+    name: 'Tipper by myCALC',
+    component: Tipper_by_myCALC,
+  },
+  {
+    path: '/details/PufferIcons_Filled',
+    name: 'PufferIcons Filled',
+    component: PufferIcons_Filled,
+  },
+  {
+    path: '/details/WallCat',
+    name: 'WallCat',
+    component: WallCat,
+  },
+  {
+    path: '/details/Tipper3',
+    name: 'Tipper3',
+    component: Tipper3,
+  },
 ]
 
 const router = createRouter({

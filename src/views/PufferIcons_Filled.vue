@@ -3,15 +3,15 @@
       <ion-header>
         <ion-toolbar>
     <ion-buttons slot="start">
-    <ion-back-button default-href="/"></ion-back-button>
+    <ion-back-button default-href="/tabs/soon"></ion-back-button>
   </ion-buttons>
-          <ion-title>Blurry Wallpapers</ion-title>
+          <ion-title>PufferIcons Filled</ion-title>
         </ion-toolbar>
       </ion-header>
       <ion-content :fullscreen="true">
         <ion-header collapse="condense">
           <ion-toolbar>
-            <ion-title size="large">Blurry Wallpapers</ion-title>
+            <ion-title size="large">PufferIcons Filled</ion-title>
           </ion-toolbar>
         </ion-header>
         <ion-grid>
@@ -22,14 +22,14 @@
     </ion-row>
     <ion-row class="column-standard">
       <ion-col size="auto">
-        <img src="../assets/Icon_Blurry.png" class="icon">
+        <img src="../assets/Icon_PufferIcons_Filled.png" class="icon">
       </ion-col>
       <ion-col size="auto" class="description-column">
           <ion-row style="padding: 0px; margin: 0px;">
-            <ion-column style="padding: 0px; margin: 0px;"><p class="size-appname" style="padding: 0px; margin: 0px;"><strong>Blurry Wallpapers</strong></p></ion-column>
+            <ion-column style="padding: 0px; margin: 0px;"><p class="size-appname" style="padding: 0px; margin: 0px;"><strong>PufferIcons Filled</strong></p></ion-column>
           </ion-row>
           <ion-row style="padding: 0px;">
-            <ion-column><p class="size-appname-icon">version 1.0.3</p></ion-column>
+            <ion-column><p class="size-appname-icon"></p></ion-column>
           </ion-row>
           <ion-row style="padding: 0px;">
             <ion-column><ion-icon :icon="logoAndroid" class="size-appname-icon"/></ion-column>
@@ -38,39 +38,27 @@
     </ion-row>
     <ion-row class="column-standard2">
       <ion-col>
-        <ion-button href="https://cdn.puffercat.xyz/c/puffercat-apps/apks/Blurry_Wallpapers/blurry-wallpapers-1.0.3.apk" expand="full" shape="round" style="margin: 0px;" download="Blurry-wallpapers-latest.apk">Download</ion-button>
+        <ion-button disabled="true" expand="full" shape="round" style="margin: 0px;">Coming Soon</ion-button>
       </ion-col>
-      <ion-col>
-        <ion-button href="https://play.google.com/store/apps/details?id=xyz.puffercat.blurrywalls.android" expand="full" shape="round" style="margin: 0px;">Google Play</ion-button>
-      </ion-col>
-    </ion-row>
-    <ion-row class="column-standard">
-      <ion-col>
-        <h4><strong>Changelog - 1.0.3</strong></h4>
-        <ul>
-            <li>Added an Android 13 themed icon</li>
-            <li>Added a splash screen</li>
-            <li>Disabled IAP support</li>
-        </ul>
-    </ion-col>
     </ion-row>
     <ion-row class="column-standard">
       <ion-col>
         <h4><strong>Description</strong></h4>
-Blurry wallpapers with and without grain. The collection will be frequently updated.<br>
+        <strong>Notes:
+Ignore Google Play Protect, my signature is different than original Lawnicons, but I can't change the package name because then Lawnchair would stop recognizing this app as Lawnicons.</strong><br>
+PufferIcons is fork of Rkicons, a fork Lawnicons which is an add-on for adding themed icons to Lawnchair 12 Alpha 5 and above. This addon is now the source of all themed icons, for simplicity.<br>
+<br>
+PufferIcons Filled as well as Rkicons are filled while PufferIcons and Lawnicons are outlined.<br>
 <br>
     </ion-col>
     </ion-row>
     <ion-row class="column-standard">
       <ion-col>
-        <h4><strong>Screenshots</strong></h4>
+        <h4><strong>Screenshots (early development)</strong></h4>
         <div class="scrollScreenshots">
-        <img src="../assets/Screenshot_Blurry_Wallpapers_1.webp" class="screenshot">
-        <img src="../assets/Screenshot_Blurry_Wallpapers_2.webp" class="screenshot">
-        <img src="../assets/Screenshot_Blurry_Wallpapers_3.webp" class="screenshot">
-        <img src="../assets/Screenshot_Blurry_Wallpapers_4.webp" class="screenshot">
-        <img src="../assets/Screenshot_Blurry_Wallpapers_5.webp" class="screenshot">
-        <img src="../assets/Screenshot_Blurry_Wallpapers_6.webp" class="screenshot">
+        <img src="../assets/Screenshot_PufferIcons_Filled_1.png" class="screenshot">
+        <img src="../assets/Screenshot_PufferIcons_Filled_2.png" class="screenshot">
+        <img src="../assets/Screenshot_PufferIcons_Filled_3.png" class="screenshot">
         </div>
         <br>
     </ion-col>
@@ -78,19 +66,13 @@ Blurry wallpapers with and without grain. The collection will be frequently upda
     <ion-row class="column-standard">
       <ion-col>
         <h4><strong>Links</strong></h4>
-        <a href="https://puffercat.gumroad.com/l/blurrywalls" class="">Wallpapers</a>
-        <br>
-        <a href="mailto:puffercatt+shapes@gmail.com" class="">E-mail</a>
-        <br>
-        <a href="https://cdn.puffercat.xyz/c/blurry-wallpapers/privacy-policy/" class="">Privacy policy</a>
-        <br>
         <a href="https://pufferrom.t.me" class="">Telegram channel (releases)</a>
         <br>
         <a href="https://puffercatchannel.t.me" class="">Telegram channel (general)</a>
         <br>
         <a href="https://puffercatrom.t.me" class="">Support group</a>
         <br>
-        <a href="https://github.com/KZacharski/blurry-wallpapers" class="">GitHub repo</a>
+        <a href="https://github.com/Puffercatt/PufferIcons-Filled" class="">GitHub repo</a>
         <br>
         <br>
     </ion-col>
@@ -174,7 +156,7 @@ Blurry wallpapers with and without grain. The collection will be frequently upda
     width: 175px;
   } .bannerColumn {
     height: 200px;
-    background-image: url("../assets/Banner_Blurry_Wallpapers.png");
+    background-image: url("../assets/Banner_PufferIcons_Filled.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
