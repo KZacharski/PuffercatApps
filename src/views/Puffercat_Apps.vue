@@ -29,7 +29,7 @@
             <ion-column style="padding: 0px; margin: 0px;"><p class="size-appname" style="padding: 0px; margin: 0px;"><strong>Puffercat Apps</strong></p></ion-column>
           </ion-row>
           <ion-row style="padding: 0px;">
-            <ion-column><p class="size-appname-icon">version 0.0.1 alpha</p></ion-column>
+            <ion-column><p class="size-appname-icon">version 1.0.0-b1 (Beta 1))</p></ion-column>
           </ion-row>
           <ion-row style="padding: 0px;">
             <ion-column><ion-icon :icon="logoPwa" class="size-appname-icon"/></ion-column>
@@ -69,9 +69,10 @@
     </ion-row>
     <ion-row class="column-standard">
       <ion-col>
-        <h4><strong>Changelog - 0.0.1</strong></h4>
+        <h4><strong>Changelog - 1.0.0-b1</strong></h4>
         <ul>
-            <li>Initial release</li>
+            <li>First beta release</li>
+            <li>Finished the basic app</li>
         </ul>
     </ion-col>
     </ion-row>

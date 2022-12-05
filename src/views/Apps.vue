@@ -24,7 +24,7 @@
         <ion-content class="ion-padding modalContent">
           <img src="../assets/Icon_Puffercat_Apps.png" class="logoAbout">
           <h1>Puffercat Apps</h1>
-          <h4>v0.0.1 alpha</h4>
+          <h4>v1.0.0-b1 (Beta 1)</h4>
           <br>
           <br>
           <div class="tableLabel">
