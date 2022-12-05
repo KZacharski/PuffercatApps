@@ -29,7 +29,7 @@
             <ion-column style="padding: 0px; margin: 0px;"><p class="size-appname" style="padding: 0px; margin: 0px;"><strong>Puffercat Apps</strong></p></ion-column>
           </ion-row>
           <ion-row style="padding: 0px;">
-            <ion-column><p class="size-appname-icon">version 1.0.0-b1 (Beta 1))</p></ion-column>
+            <ion-column><p class="size-appname-icon">version 1.0.0-b1 (Beta 1)</p></ion-column>
           </ion-row>
           <ion-row style="padding: 0px;">
             <ion-column><ion-icon :icon="logoPwa" class="size-appname-icon"/></ion-column>
@@ -113,6 +113,8 @@ The full catalog of apps created by Puffercat as well as ones currently in devel
         <a href="https://twitter.com/@puffercatt" class="">Twitter</a>
         <br>
         <a href="mailto:puffercatt+pufferapps@gmail.com" class="">E-mail</a>
+        <br>
+        <a href="https://github.com/KZacharski/PuffercatApps" class="">GitHub repo</a>
         <br>
         <br>
     </ion-col>
