@@ -10,6 +10,7 @@ import Tipper_by_myCALC from '../views/Tipper_by_myCALC.vue'
 import PufferIcons_Filled from '../views/PufferIcons_Filled.vue'
 import WallCat from '../views/WallCat.vue'
 import Tipper3 from '../views/Tipper3.vue'
+import BetterAperture from '../views/BetterAperture.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -73,6 +74,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/details/Tipper3',
     name: 'Tipper3',
     component: Tipper3,
+  },
+  {
+    path: '/details/BetterAperture',
+    name: 'BetterAperture',
+    component: BetterAperture,
   },
 ]
 
