@@ -24,7 +24,7 @@
         <ion-content class="ion-padding modalContent">
           <img src="../assets/Icon_Puffercat_Apps.png" class="logoAbout">
           <h1>Puffercat Apps</h1>
-          <h4>v1.0.0-b2 (Beta 2)</h4>
+          <h4>v1.0.0-b3 (Beta 3)</h4>
           <br>
           <br>
           <div class="tableLabel">
@@ -115,6 +115,22 @@
         </ion-row>
         <ion-row>
           <a href="/details/WallCat" class="hidden-link"><ion-column><ion-icon :icon="logoAndroid" class="size-appname-icon"/></ion-column></a>
+        </ion-row>
+    </ion-col>
+    <ion-col class="download-column">
+      <ion-button shape="round" disabled="true"><ion-icon :icon="arrowDown" /></ion-button>
+    </ion-col>
+  </ion-row>
+  <ion-row class="column-standard">
+    <ion-col size="auto">
+      <a href="/details/Duo" class="hidden-link"><img src="../assets/Icon_Duo.png" class="icon"></a>
+    </ion-col>
+    <ion-col size="auto" class="description-column">
+        <ion-row>
+          <a href="/details/Duo" class="hidden-link"><ion-column><h4 class="size-appname">Duo</h4></ion-column></a>
+        </ion-row>
+        <ion-row>
+          <a href="/details/Duo" class="hidden-link"><ion-column><ion-icon :icon="logoAndroid" class="size-appname-icon"/></ion-column></a>
         </ion-row>
     </ion-col>
     <ion-col class="download-column">
