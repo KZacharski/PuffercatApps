@@ -57,11 +57,6 @@ const routes: Array<RouteRecordRaw> = [
     component: Blurry_Wallpapers,
   },
   {
-    path: '/details/Tipper_by_myCALC',
-    name: 'Tipper by myCALC',
-    component: Tipper_by_myCALC,
-  },
-  {
     path: '/details/PufferIcons_Filled',
     name: 'PufferIcons Filled',
     component: PufferIcons_Filled,
@@ -70,11 +65,6 @@ const routes: Array<RouteRecordRaw> = [
     path: '/details/WallCat',
     name: 'WallCat',
     component: WallCat,
-  },
-  {
-    path: '/details/Tipper3',
-    name: 'Tipper3',
-    component: Tipper3,
   },
   {
     path: '/details/BetterAperture',

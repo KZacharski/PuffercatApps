@@ -24,7 +24,7 @@
         <ion-content class="ion-padding modalContent">
           <img src="../assets/Icon_Puffercat_Apps.png" class="logoAbout">
           <h1>Puffercat Apps</h1>
-          <h4>v1.0.0-b3 (Beta 3)</h4>
+          <h4>v1.0.0-b4 (Beta 4)</h4>
           <br>
           <br>
           <div class="tableLabel">
@@ -90,15 +90,15 @@
       </ion-header>
       <ion-grid>
 <ion-row class="column-standard">
-    <ion-col size="auto">
-      <a href="/details/PufferIcons"><img src="../assets/Icon_PufferIcons.png" class="icon"></a>
+    <ion-col size="auto" button @click="() => router.push('/details/PufferIcons')">
+      <img src="../assets/Icon_PufferIcons.png" class="icon">
     </ion-col>
-    <ion-col size="auto" class="description-column">
+    <ion-col size="auto" class="description-column" button @click="() => router.push('/details/PufferIcons')">
         <ion-row>
-          <ion-column><a href="/details/PufferIcons" class="hidden-link"><h4 class="size-appname">PufferIcons</h4></a></ion-column>
+          <ion-column><h4 class="size-appname">PufferIcons</h4></ion-column>
         </ion-row>
         <ion-row>
-          <a href="/details/PufferIcons"><ion-column><ion-icon :icon="logoAndroid" class="size-appname-icon hidden-link"/></ion-column></a>
+          <ion-column button @click="() => router.push('/details/PufferIcons')"><ion-icon :icon="logoAndroid" class="size-appname-icon hidden-link"/></ion-column>
         </ion-row>
     </ion-col>
     <ion-col>
@@ -109,15 +109,15 @@
     </ion-col>
   </ion-row>
   <ion-row class="column-standard">
-    <ion-col size="auto">
-      <a href="/details/Puffercat_Apps"><img src="../assets/Icon_Puffercat_Apps.png" class="icon"></a>
+    <ion-col size="auto" button @click="() => router.push('/details/Puffercat_Apps')">
+      <img src="../assets/Icon_Puffercat_Apps.png" class="icon">
     </ion-col>
     <ion-col size="auto" class="description-column">
         <ion-row>
-          <a href="/details/Puffercat_Apps" class="hidden-link"><ion-column><h4 class="size-appname">Puffercat Apps</h4></ion-column></a>
+          <ion-column button @click="() => router.push('/details/Puffercat_Apps')"><h4 class="size-appname">Puffercat Apps</h4></ion-column>
         </ion-row>
         <ion-row>
-          <a href="/details/Puffercat_Apps" class="hidden-link"><ion-column><ion-icon :icon="logoPwa" class="size-appname-icon"/></ion-column></a>
+          <ion-column button @click="() => router.push('/details/Puffercat_Apps')"><ion-icon :icon="logoPwa" class="size-appname-icon"/></ion-column>
         </ion-row>
     </ion-col>
     <ion-col class="download-column">
@@ -198,28 +198,12 @@
       <ion-button shape="round" href="https://cdn.puffercat.xyz/c/puffercat-apps/apks/Blurry_Wallpapers/blurry-wallpapers-1.0.3.apk"><ion-icon :icon="arrowDown" /></ion-button>
     </ion-col>
   </ion-row>
-  <ion-row class="column-bottom">
-    <ion-col size="auto">
-      <a href="/details/Tipper_by_myCALC" class="hidden-link"><img src="../assets/Icon_Tipper.png" class="icon"></a>
-    </ion-col>
-    <ion-col size="auto" class="description-column">
-        <ion-row>
-          <a href="/details/Tipper_by_myCALC" class="hidden-link"><ion-column><h4 class="size-appname">Tipper by myCALC</h4></ion-column></a>
-        </ion-row>
-        <ion-row>
-          <a href="/details/Tipper_by_myCALC" class="hidden-link"><ion-column><ion-icon :icon="logoAndroid" class="size-appname-icon"/></ion-column></a>
-        </ion-row>
-    </ion-col>
-    <ion-col class="download-column">
-      <ion-button shape="round" href="https://cdn.puffercat.xyz/c/puffercat-apps/apks/Tipper_by_myCALC/tipper-by-mycalc-1.1-dev.apk"><ion-icon :icon="arrowDown" /></ion-button>
-    </ion-col>
-  </ion-row>
 </ion-grid>
     </ion-content>
   </ion-page>
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
 import { defineComponent } from 'vue';
 import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonCol, IonGrid, IonRow, IonBackButton, IonButton, IonButtons, IonIcon, IonMenuButton,
     IonModal,
@@ -230,22 +214,14 @@ import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonCol, IonGrid, 
     IonLabel, IonPopover } from '@ionic/vue';
 import ExploreContainer from '@/components/ExploreContainer.vue';
 import { logoAndroid, arrowDown, logoPwa, ellipsisVertical } from 'ionicons/icons';
+import { useRouter } from 'vue-router';
 
-export default  defineComponent({
-  name: 'Tab1Page',
-  components: {IonHeader, IonToolbar, IonTitle, IonContent, IonPage, IonCol, IonGrid, IonRow, IonButton, IonButtons, IonIcon,
-      IonModal,
-      IonItem,
-      IonList, IonPopover },
-  setup() {
-    return {
-      logoAndroid,
-      arrowDown,
-      logoPwa,
-      ellipsisVertical
-    }
-  },
-    methods: {
+const router = useRouter();
+</script>
+
+<script lang="ts">
+export default defineComponent ({
+  methods: {
       dismiss() {
         (this.$refs.modal as InstanceType<typeof IonModal>).$el.dismiss();
       },
