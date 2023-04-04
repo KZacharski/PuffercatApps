@@ -17,14 +17,15 @@
     "@capacitor/haptics": "4.1.0",
     "@capacitor/keyboard": "4.1.0",
     "@capacitor/status-bar": "4.1.0",
-    "@ionic/vue": "^6.0.0",
-    "@ionic/vue-router": "^6.0.0",
+    "@ionic/core": "^7.0.0-rc.5",
+    "@ionic/vue": "^7.0.0-rc.5",
+    "@ionic/vue-router": "^7.0.0-rc.5",
     "@vue/cli-plugin-pwa": "^5.0.8",
     "core-js": "^3.6.5",
     "ionicons": "^6.0.3",
     "register-service-worker": "^1.7.2",
-    "vue": "^3.2.21",
-    "vue-router": "^4.0.12"
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
   },
   "devDependencies": {
     "@capacitor/cli": "4.5.0",
