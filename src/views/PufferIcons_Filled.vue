@@ -155,13 +155,18 @@ PufferIcons Filled as well as Rkicons are filled while PufferIcons and Lawnicons
   } .aboutFrameworkLogo {
     width: 175px;
   } .bannerColumn {
-    height: 200px;
+    height: 500px;
     background-image: url("../assets/Banner_PufferIcons_Filled.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 25px;
-  } .column-standard2 {
+  }
+  @media screen and (max-width: 850px) {
+    .bannerColumn {
+        height: 200px;
+    }
+} .column-standard2 {
       background-color: transparent;
       color: var(--ion-color-light-contrast);
     padding: 0px;

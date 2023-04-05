@@ -203,13 +203,18 @@ The full catalog of apps created by Puffercat as well as ones currently in devel
   } .aboutFrameworkLogo {
     width: 175px;
   } .bannerColumn {
-    height: 200px;
+    height: 500px;
     background-image: url("../assets/Banner_Puffercat_Apps.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 25px;
-  } .column-standard2 {
+  }
+  @media screen and (max-width: 850px) {
+    .bannerColumn {
+        height: 200px;
+    }
+} .column-standard2 {
       background-color: transparent;
       color: var(--ion-color-light-contrast);
     padding: 0px;
