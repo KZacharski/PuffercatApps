@@ -204,6 +204,12 @@
 </template>
 
 <script setup lang="ts">
+
+
+const router = useRouter();
+</script>
+
+<script lang="ts">
 import { defineComponent } from 'vue';
 import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonCol, IonGrid, IonRow, IonBackButton, IonButton, IonButtons, IonIcon, IonMenuButton,
     IonModal,
@@ -216,10 +222,6 @@ import ExploreContainer from '@/components/ExploreContainer.vue';
 import { logoAndroid, arrowDown, logoPwa, ellipsisVertical } from 'ionicons/icons';
 import { useRouter } from 'vue-router';
 
-const router = useRouter();
-</script>
-
-<script lang="ts">
 export default defineComponent ({
   methods: {
       dismiss() {
