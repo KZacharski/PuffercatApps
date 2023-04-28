@@ -151,15 +151,15 @@
     </ion-col>
   </ion-row>
   <ion-row class="column-standard">
-    <ion-col size="auto">
-      <a href="/details/BetterAperture" class="hidden-link"><img src="../assets/Icon_BetterAperture.png" class="icon"></a>
+    <ion-col size="auto" button @click="() => router.push('/details/BetterAperture')">
+      <img src="../assets/Icon_BetterAperture.png" class="icon">
     </ion-col>
-    <ion-col size="auto" class="description-column">
+    <ion-col size="auto" class="description-column" button @click="() => router.push('/details/BetterAperture')">
         <ion-row>
-          <a href="/details/BetterAperture" class="hidden-link"><ion-column><h4 class="size-appname">BetterAperture</h4></ion-column></a>
+          <ion-column><h4 class="size-appname">BetterAperture</h4></ion-column>
         </ion-row>
         <ion-row>
-          <a href="/details/BetterAperture" class="hidden-link"><ion-column><ion-icon :icon="logoAndroid" class="size-appname-icon"/></ion-column></a>
+          <ion-column><ion-icon :icon="logoAndroid" class="size-appname-icon"/></ion-column>
         </ion-row>
     </ion-col>
     <ion-col class="download-column">
@@ -167,35 +167,35 @@
     </ion-col>
   </ion-row>
   <ion-row class="column-standard">
-    <ion-col size="auto">
-      <a href="/details/Shapes" class="hidden-link"><img src="../assets/Icon_Shapes.png" class="icon"></a>
+    <ion-col size="auto" button @click="() => router.push('/details/Shapes')">
+      <img src="../assets/Icon_Shapes.png" class="icon">
     </ion-col>
-    <ion-col size="auto" class="description-column">
+    <ion-col size="auto" class="description-column" button @click="() => router.push('/details/Shapes')">
         <ion-row>
-          <a href="/details/Shapes" class="hidden-link"><ion-column><h4 class="size-appname">Shapes</h4></ion-column></a>
+          <ion-column><h4 class="size-appname">Shapes</h4></ion-column>
         </ion-row>
         <ion-row>
-          <a href="/details/Shapes" class="hidden-link"><ion-column><ion-icon :icon="logoAndroid" class="size-appname-icon"/></ion-column></a>
+          <ion-column><ion-icon :icon="logoAndroid" class="size-appname-icon"/></ion-column>
         </ion-row>
     </ion-col>
     <ion-col class="download-column">
-      <ion-button shape="round" href="https://cdn.puffercat.xyz/c/puffercat-apps/apks/Shapes/shapes-1.0.4.apk"><ion-icon :icon="arrowDown" /></ion-button>
+      <ion-button shape="round" href="https://cdn.puffercat.xyz/c/puffercat-apps/apks/Shapes/shapes-1.0.5.apk"><ion-icon :icon="arrowDown" /></ion-button>
     </ion-col>
   </ion-row>
   <ion-row class="column-standard">
-    <ion-col size="auto">
-      <a href="/details/Blurry_Wallpapers" class="hidden-link"><img src="../assets/Icon_Blurry.png" class="icon"></a>
+    <ion-col size="auto" button @click="() => router.push('/details/Blurry_Wallpapers')">
+      <img src="../assets/Icon_Blurry.png" class="icon">
     </ion-col>
-    <ion-col size="auto" class="description-column">
+    <ion-col size="auto" class="description-column" button @click="() => router.push('/details/Blurry_Wallpapers')">
         <ion-row>
-          <a href="/details/Blurry_Wallpapers" class="hidden-link"><ion-column><h4 class="size-appname">Blurry Wallpapers</h4></ion-column></a>
+          <ion-column><h4 class="size-appname">Blurry Wallpapers</h4></ion-column>
         </ion-row>
         <ion-row>
-          <a href="/details/Blurry_Wallpapers" class="hidden-link"><ion-column><ion-icon :icon="logoAndroid" class="size-appname-icon"/></ion-column></a>
+          <ion-column><ion-icon :icon="logoAndroid" class="size-appname-icon"/></ion-column>
         </ion-row>
     </ion-col>
     <ion-col class="download-column">
-      <ion-button shape="round" href="https://cdn.puffercat.xyz/c/puffercat-apps/apks/Blurry_Wallpapers/blurry-wallpapers-1.0.3.apk"><ion-icon :icon="arrowDown" /></ion-button>
+      <ion-button shape="round" href="https://cdn.puffercat.xyz/c/puffercat-apps/apks/Blurry_Wallpapers/blurry-wallpapers-1.0.4.apk"><ion-icon :icon="arrowDown" /></ion-button>
     </ion-col>
   </ion-row>
 </ion-grid>

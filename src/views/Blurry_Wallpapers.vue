@@ -29,7 +29,7 @@
             <ion-column style="padding: 0px; margin: 0px;"><p class="size-appname" style="padding: 0px; margin: 0px;"><strong>Blurry Wallpapers</strong></p></ion-column>
           </ion-row>
           <ion-row style="padding: 0px;">
-            <ion-column><p class="size-appname-icon">version 1.0.3</p></ion-column>
+            <ion-column><p class="size-appname-icon">version 1.0.4</p></ion-column>
           </ion-row>
           <ion-row style="padding: 0px;">
             <ion-column><ion-icon :icon="logoAndroid" class="size-appname-icon"/></ion-column>
@@ -38,7 +38,7 @@
     </ion-row>
     <ion-row class="column-standard2">
       <ion-col>
-        <ion-button href="https://cdn.puffercat.xyz/c/puffercat-apps/apks/Blurry_Wallpapers/blurry-wallpapers-1.0.3.apk" expand="full" shape="round" style="margin: 0px;" download="Blurry-wallpapers-latest.apk">Download</ion-button>
+        <ion-button href="https://cdn.puffercat.xyz/c/puffercat-apps/apks/Blurry_Wallpapers/blurry-wallpapers-1.0.4.apk" expand="full" shape="round" style="margin: 0px;" download="Blurry-wallpapers-latest.apk">Download</ion-button>
       </ion-col>
       <ion-col>
         <ion-button href="https://play.google.com/store/apps/details?id=xyz.puffercat.blurrywalls.android" expand="full" shape="round" style="margin: 0px;">Google Play</ion-button>
@@ -46,11 +46,11 @@
     </ion-row>
     <ion-row class="column-standard">
       <ion-col>
-        <h4><strong>Changelog - 1.0.3</strong></h4>
+        <h4><strong>Changelog - 1.0.4</strong></h4>
         <ul>
-            <li>Added an Android 13 themed icon</li>
-            <li>Added a splash screen</li>
-            <li>Disabled IAP support</li>
+            <li>Added a legacy icon</li>
+            <li>Changed the icon format to webp</li>
+            <li>Updated the about page</li>
         </ul>
     </ion-col>
     </ion-row>
