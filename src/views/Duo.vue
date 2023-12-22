@@ -82,7 +82,7 @@
   </template>
   
   <script lang="ts">
-  import { defineComponent } from 'vue';
+ import { defineComponent } from 'vue';
   import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonCol, IonGrid, IonRow, IonBackButton, IonButton, IonButtons, IonIcon, IonMenuButton,
       IonModal,
       IonItem,
