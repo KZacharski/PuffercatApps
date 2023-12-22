@@ -29,7 +29,7 @@
             <ion-column style="padding: 0px; margin: 0px;"><p class="size-appname" style="padding: 0px; margin: 0px;"><strong>Puffercat Apps</strong></p></ion-column>
           </ion-row>
           <ion-row style="padding: 0px;">
-            <ion-column><p class="size-appname-icon">version 1.0.0-b3 (Beta 3)</p></ion-column>
+            <ion-column><p class="size-appname-icon">version 1.0.0-b4 (Beta 4)</p></ion-column>
           </ion-row>
           <ion-row style="padding: 0px;">
             <ion-column><ion-icon :icon="logoPwa" class="size-appname-icon"/></ion-column>
@@ -69,11 +69,12 @@
     </ion-row>
     <ion-row class="column-standard">
       <ion-col>
-        <h4><strong>Changelog - 1.0.0-b3</strong></h4>
+        <h4><strong>Changelog - 1.0.0-b4</strong></h4>
         <ul>
-            <li>Added a Google Play link to BetterAperture</li>
-            <li>Added Duo</li>
-            <li>Fixed a dependency security vulnerability</li>
+            <li>Fixed dependency security vulnerabilities</li>
+            <li>Updated to Ionic 7</li>
+            <li>Fixed nav on the apps page</li>
+            <li>Made the banners less cut off on desktop</li>
         </ul>
     </ion-col>
     </ion-row>
