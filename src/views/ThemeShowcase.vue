@@ -3,15 +3,15 @@
       <ion-header>
         <ion-toolbar>
     <ion-buttons slot="start">
-    <ion-back-button default-href="/tabs/soon"></ion-back-button>
+    <ion-back-button default-href="/"></ion-back-button>
   </ion-buttons>
-          <ion-title>Duo</ion-title>
+          <ion-title>ThemeShowcase</ion-title>
         </ion-toolbar>
       </ion-header>
       <ion-content :fullscreen="true">
         <ion-header collapse="condense">
           <ion-toolbar>
-            <ion-title size="large">Duo</ion-title>
+            <ion-title size="large">ThemeShowcase</ion-title>
           </ion-toolbar>
         </ion-header>
         <ion-grid>
@@ -22,14 +22,14 @@
     </ion-row>
     <ion-row class="column-standard">
       <ion-col size="auto">
-        <img src="../assets/Icon_Duo.png" class="icon">
+        <img src="../assets/Icon_ThemeShowcase.png" class="icon">
       </ion-col>
       <ion-col size="auto" class="description-column">
           <ion-row style="padding: 0px; margin: 0px;">
-            <ion-column style="padding: 0px; margin: 0px;"><p class="size-appname" style="padding: 0px; margin: 0px;"><strong>Duo</strong></p></ion-column>
+            <ion-column style="padding: 0px; margin: 0px;"><p class="size-appname" style="padding: 0px; margin: 0px;"><strong>ThemeShowcase</strong></p></ion-column>
           </ion-row>
           <ion-row style="padding: 0px;">
-            <ion-column><p class="size-appname-icon"></p></ion-column>
+            <ion-column><p class="size-appname-icon">version 1.0 (Beta)</p></ion-column>
           </ion-row>
           <ion-row style="padding: 0px;">
             <ion-column><ion-icon :icon="logoAndroid" class="size-appname-icon"/></ion-column>
@@ -38,40 +38,59 @@
     </ion-row>
     <ion-row class="column-standard2">
       <ion-col>
-        <ion-button disabled="true" expand="full" shape="round" style="margin: 0px;">Coming Soon</ion-button>
+        <ion-button href="https://f2.puffercat.xyz/PuffercatApps/ThemeShowcase-1.0b.apk" expand="full" shape="round" style="margin: 0px;" download="PufferIcons-latest.apk">Download</ion-button>
       </ion-col>
     </ion-row>
     <ion-row class="column-standard">
       <ion-col>
-        <h4><strong>Description</strong></h4>
-        A vibrant, light and glowing duo-tone icon pack<br>
-<br>
+        <h4><strong>Changelog - 1.0 (Beta)</strong></h4>
+        <ul>
+            <li>Initial release</li>
+        </ul>
     </ion-col>
     </ion-row>
-   <!-- <ion-row class="column-standard">
+    <ion-row class="column-standard">
       <ion-col>
-        <h4><strong>Screenshots (early development)</strong></h4>
+        <h4><strong>Description</strong></h4>
+        <p>ThemeShowcase is an app that allows you to preview all standard themes for XML layouts.</p>
+    </ion-col>
+    </ion-row>
+    <ion-row class="column-standard">
+      <ion-col>
+        <h4><strong>Screenshots</strong></h4>
         <div class="scrollScreenshots">
-        <img src="../assets/Screenshot_WallCat_1.png" class="screenshot">
-        <img src="../assets/Screenshot_WallCat_2.png" class="screenshot">
-        <img src="../assets/Screenshot_WallCat_3.png" class="screenshot">
-        <img src="../assets/Screenshot_WallCat_4.png" class="screenshot">
-        <img src="../assets/Screenshot_WallCat_5.png" class="screenshot">
-        <img src="../assets/Screenshot_WallCat_6.jpg" class="screenshot">
+        <img src="../assets/Screenshot_ThemeShowcase_1.png" class="screenshot">
+        <img src="../assets/Screenshot_ThemeShowcase_2.png" class="screenshot">
+        <img src="../assets/Screenshot_ThemeShowcase_3.png" class="screenshot">
+        <img src="../assets/Screenshot_ThemeShowcase_4.png" class="screenshot">
+        <img src="../assets/Screenshot_ThemeShowcase_5.png" class="screenshot">
+        <img src="../assets/Screenshot_ThemeShowcase_6.png" class="screenshot">
+        <img src="../assets/Screenshot_ThemeShowcase_7.png" class="screenshot">
+        <img src="../assets/Screenshot_ThemeShowcase_8.png" class="screenshot">
+        <img src="../assets/Screenshot_ThemeShowcase_9.png" class="screenshot">
+        <img src="../assets/Screenshot_ThemeShowcase_10.png" class="screenshot">
+        <img src="../assets/Screenshot_ThemeShowcase_11.png" class="screenshot">
+        <img src="../assets/Screenshot_ThemeShowcase_12.png" class="screenshot">
+        <img src="../assets/Screenshot_ThemeShowcase_13.png" class="screenshot">
+        <img src="../assets/Screenshot_ThemeShowcase_14.png" class="screenshot">
+        <img src="../assets/Screenshot_ThemeShowcase_15.png" class="screenshot">
+        <img src="../assets/Screenshot_ThemeShowcase_16.png" class="screenshot">
+        <img src="../assets/Screenshot_ThemeShowcase_17.png" class="screenshot">
+        <img src="../assets/Screenshot_ThemeShowcase_18.png" class="screenshot">
         </div>
         <br>
     </ion-col>
-    </ion-row>-->
+    </ion-row>
     <ion-row class="column-standard">
       <ion-col>
         <h4><strong>Links</strong></h4>
-        <a href="mailto:puffercatt+duo@gmail.com" class="">E-mail</a>
-        <br>
         <a href="https://pufferrom.t.me" class="">Telegram channel (releases)</a>
         <br>
         <a href="https://puffercatchannel.t.me" class="">Telegram channel (general)</a>
         <br>
         <a href="https://puffercatrom.t.me" class="">Support group</a>
+        <br>
+        <a href="https://github.com/KZacharski/ThemeShowcase" class="">GitHub repo (coming soon)</a>
         <br>
         <br>
     </ion-col>
@@ -82,7 +101,7 @@
   </template>
   
   <script lang="ts">
- import { defineComponent } from 'vue';
+  import { defineComponent } from 'vue';
   import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonCol, IonGrid, IonRow, IonBackButton, IonButton, IonButtons, IonIcon, IonMenuButton,
       IonModal,
       IonItem,
@@ -153,9 +172,10 @@
     }
   } .aboutFrameworkLogo {
     width: 175px;
-  } .bannerColumn {
+  }
+  .bannerColumn {
     height: 500px;
-    background-image: url("../assets/Banner_Duo.png");
+    background-image: url("../assets/Banner_ThemeShowcase.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -165,7 +185,8 @@
     .bannerColumn {
         height: 200px;
     }
-} .column-standard2 {
+}
+  .column-standard2 {
       background-color: transparent;
       color: var(--ion-color-light-contrast);
     padding: 0px;

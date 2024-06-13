@@ -24,7 +24,7 @@
         <ion-content class="ion-padding modalContent">
           <img src="../assets/Icon_Puffercat_Apps.png" class="logoAbout">
           <h1>Puffercat Apps</h1>
-          <h4>v1.0.0-b4 (Beta 4)</h4>
+          <h4>v1.0.0-b5 (Beta 5)</h4>
           <br>
           <br>
           <div class="tableLabel">
@@ -89,6 +89,25 @@
         </ion-toolbar>
       </ion-header>
       <ion-grid>
+        <ion-row class="column-standard">
+    <ion-col size="auto" button @click="() => router.push('/details/ThemeShowcase')">
+      <img src="../assets/Icon_ThemeShowcase.png" class="icon">
+    </ion-col>
+    <ion-col size="auto" class="description-column" button @click="() => router.push('/details/ThemeShowcase')">
+        <ion-row>
+          <ion-column><h4 class="size-appname">ThemeShowcase</h4></ion-column>
+        </ion-row>
+        <ion-row>
+          <ion-column button @click="() => router.push('/details/ThemeShowcase')"><ion-icon :icon="logoAndroid" class="size-appname-icon hidden-link"/></ion-column>
+        </ion-row>
+    </ion-col>
+    <ion-col>
+
+    </ion-col>
+    <ion-col class="download-column">
+      <ion-button shape="round" href="https://f2.puffercat.xyz/PuffercatApps/ThemeShowcase-1.0b.apk"><ion-icon :icon="arrowDown" /></ion-button>
+    </ion-col>
+  </ion-row>
 <ion-row class="column-standard">
     <ion-col size="auto" button @click="() => router.push('/details/PufferIcons')">
       <img src="../assets/Icon_PufferIcons.png" class="icon">
@@ -138,13 +157,17 @@
             <img src="../assets/Puffercat_Apps_Guide_1.png" class="installGuideImage">
             <p>2. Open the menu (on the browser's bar, not on the website)</p>
             <img src="../assets/Puffercat_Apps_Guide_2.png" class="installGuideImage">
-            <p>3. Select "Install app" or "Add to home screen"</p>
+            <p>3. Select "Add to home screen"</p>
             <img src="../assets/Puffercat_Apps_Guide_3.png" class="installGuideImage">
             <p>4. Select "Install"</p>
             <img src="../assets/Puffercat_Apps_Guide_4.png" class="installGuideImage">
-            <p>5. Done. You should get this notification and a new icon should show up on your home screen</p>
+            <p>5. Select "Install" once again</p>
             <img src="../assets/Puffercat_Apps_Guide_5.png" class="installGuideImage">
+            <p>6. Done. You should get this notification and a new icon should show up on your home screen</p>
             <img src="../assets/Puffercat_Apps_Guide_6.png" class="installGuideImage">
+            <img src="../assets/Puffercat_Apps_Guide_7.png" class="installGuideImage">
+            <p>Now you can use Puffercat Apps like an app</p>
+            <img src="../assets/Puffercat_Apps_Guide_8.png" class="installGuideImage">
             <br><br><br><br><br><br>
         </ion-content>
       </ion-modal>

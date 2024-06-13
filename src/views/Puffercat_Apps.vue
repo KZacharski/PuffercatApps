@@ -29,7 +29,7 @@
             <ion-column style="padding: 0px; margin: 0px;"><p class="size-appname" style="padding: 0px; margin: 0px;"><strong>Puffercat Apps</strong></p></ion-column>
           </ion-row>
           <ion-row style="padding: 0px;">
-            <ion-column><p class="size-appname-icon">version 1.0.0-b4 (Beta 4)</p></ion-column>
+            <ion-column><p class="size-appname-icon">version 1.0.0-b5 (Beta 5)</p></ion-column>
           </ion-row>
           <ion-row style="padding: 0px;">
             <ion-column><ion-icon :icon="logoPwa" class="size-appname-icon"/></ion-column>
@@ -55,13 +55,17 @@
             <img src="../assets/Puffercat_Apps_Guide_1.png" class="installGuideImage">
             <p>2. Open the menu (on the browser's bar, not on the website)</p>
             <img src="../assets/Puffercat_Apps_Guide_2.png" class="installGuideImage">
-            <p>3. Select "Install app" or "Add to home screen"</p>
+            <p>3. Select "Add to home screen"</p>
             <img src="../assets/Puffercat_Apps_Guide_3.png" class="installGuideImage">
             <p>4. Select "Install"</p>
             <img src="../assets/Puffercat_Apps_Guide_4.png" class="installGuideImage">
-            <p>5. Done. You should get this notification and a new icon should show up on your home screen</p>
+            <p>5. Select "Install" once again</p>
             <img src="../assets/Puffercat_Apps_Guide_5.png" class="installGuideImage">
+            <p>6. Done. You should get this notification and a new icon should show up on your home screen</p>
             <img src="../assets/Puffercat_Apps_Guide_6.png" class="installGuideImage">
+            <img src="../assets/Puffercat_Apps_Guide_7.png" class="installGuideImage">
+            <p>Now you can use Puffercat Apps like an app</p>
+            <img src="../assets/Puffercat_Apps_Guide_8.png" class="installGuideImage">
             <br><br><br><br><br><br>
         </ion-content>
       </ion-modal>
@@ -69,12 +73,12 @@
     </ion-row>
     <ion-row class="column-standard">
       <ion-col>
-        <h4><strong>Changelog - 1.0.0-b4</strong></h4>
+        <h4><strong>Changelog - 1.0.0-b5</strong></h4>
         <ul>
             <li>Fixed dependency security vulnerabilities</li>
-            <li>Updated to Ionic 7</li>
-            <li>Fixed nav on the apps page</li>
-            <li>Made the banners less cut off on desktop</li>
+            <li>Added ThemeShowcase</li>
+            <li>Fixed nav on the coming soon page</li>
+            <li>Updated PWA install guide for newer versions of Chrome</li>
         </ul>
     </ion-col>
     </ion-row>
