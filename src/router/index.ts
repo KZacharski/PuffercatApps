@@ -12,6 +12,7 @@ import WallCat from '../views/WallCat.vue'
 import Tipper3 from '../views/Tipper3.vue'
 import BetterAperture from '../views/BetterAperture.vue'
 import Duo from '../views/Duo.vue'
+import ThemeShowcase from '@/views/ThemeShowcase.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -75,6 +76,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/details/Duo',
     name: 'Duo',
     component: Duo,
+  },
+  {
+    path: '/details/ThemeShowcase',
+    name: 'ThemeShowcase',
+    component: ThemeShowcase,
   },
 ]
 
