@@ -157,13 +157,17 @@
             <img src="../assets/Puffercat_Apps_Guide_1.png" class="installGuideImage">
             <p>2. Open the menu (on the browser's bar, not on the website)</p>
             <img src="../assets/Puffercat_Apps_Guide_2.png" class="installGuideImage">
-            <p>3. Select "Install app" or "Add to home screen"</p>
+            <p>3. Select "Add to home screen"</p>
             <img src="../assets/Puffercat_Apps_Guide_3.png" class="installGuideImage">
             <p>4. Select "Install"</p>
             <img src="../assets/Puffercat_Apps_Guide_4.png" class="installGuideImage">
-            <p>5. Done. You should get this notification and a new icon should show up on your home screen</p>
+            <p>5. Select "Install" once again</p>
             <img src="../assets/Puffercat_Apps_Guide_5.png" class="installGuideImage">
+            <p>6. Done. You should get this notification and a new icon should show up on your home screen</p>
             <img src="../assets/Puffercat_Apps_Guide_6.png" class="installGuideImage">
+            <img src="../assets/Puffercat_Apps_Guide_7.png" class="installGuideImage">
+            <p>Now you can use Puffercat Apps like an app</p>
+            <img src="../assets/Puffercat_Apps_Guide_8.png" class="installGuideImage">
             <br><br><br><br><br><br>
         </ion-content>
       </ion-modal>
