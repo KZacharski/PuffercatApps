@@ -93,10 +93,10 @@ The full catalog of apps created by Puffercat as well as ones currently in devel
       <ion-col>
         <h4><strong>Screenshots</strong></h4>
         <div class="scrollScreenshots">
-        <img src="../assets/Screenshot_Puffercat_Apps_1.png" class="screenshot">
-        <img src="../assets/Screenshot_Puffercat_Apps_2.png" class="screenshot">
-        <img src="../assets/Screenshot_Puffercat_Apps_3.png" class="screenshot">
-        <img src="../assets/Screenshot_Puffercat_Apps_4.png" class="screenshot">
+        <img src="../assets/Screenshot_Puffercat_Apps_1.jpg" class="screenshot">
+        <img src="../assets/Screenshot_Puffercat_Apps_2.jpg" class="screenshot">
+        <img src="../assets/Screenshot_Puffercat_Apps_3.jpg" class="screenshot">
+        <img src="../assets/Screenshot_Puffercat_Apps_4.jpg" class="screenshot">
         <img src="../assets/Screenshot_Puffercat_Apps_5.png" class="screenshot">
         <img src="../assets/Screenshot_Puffercat_Apps_6.png" class="screenshot">
         <img src="../assets/Screenshot_Puffercat_Apps_7.png" class="screenshot">
