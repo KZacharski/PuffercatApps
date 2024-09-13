@@ -29,7 +29,7 @@
             <ion-column style="padding: 0px; margin: 0px;"><p class="size-appname" style="padding: 0px; margin: 0px;"><strong>Puffercat Apps</strong></p></ion-column>
           </ion-row>
           <ion-row style="padding: 0px;">
-            <ion-column><p class="size-appname-icon">version 1.0.0-b5 (Beta 5)</p></ion-column>
+            <ion-column><p class="size-appname-icon">version 1.0.0-b6 (Beta 6)</p></ion-column>
           </ion-row>
           <ion-row style="padding: 0px;">
             <ion-column><ion-icon :icon="logoPwa" class="size-appname-icon"/></ion-column>
@@ -76,9 +76,8 @@
         <h4><strong>Changelog - 1.0.0-b5</strong></h4>
         <ul>
             <li>Fixed dependency security vulnerabilities</li>
-            <li>Added ThemeShowcase</li>
-            <li>Fixed nav on the coming soon page</li>
-            <li>Updated PWA install guide for newer versions of Chrome</li>
+            <li>Added WallCat</li>
+            <li>Added new Puffercat Apps screenshots</li>
         </ul>
     </ion-col>
     </ion-row>
@@ -93,10 +92,10 @@ The full catalog of apps created by Puffercat as well as ones currently in devel
       <ion-col>
         <h4><strong>Screenshots</strong></h4>
         <div class="scrollScreenshots">
-        <img src="../assets/Screenshot_Puffercat_Apps_1.png" class="screenshot">
-        <img src="../assets/Screenshot_Puffercat_Apps_2.png" class="screenshot">
-        <img src="../assets/Screenshot_Puffercat_Apps_3.png" class="screenshot">
-        <img src="../assets/Screenshot_Puffercat_Apps_4.png" class="screenshot">
+        <img src="../assets/Screenshot_Puffercat_Apps_1.jpg" class="screenshot">
+        <img src="../assets/Screenshot_Puffercat_Apps_2.jpg" class="screenshot">
+        <img src="../assets/Screenshot_Puffercat_Apps_3.jpg" class="screenshot">
+        <img src="../assets/Screenshot_Puffercat_Apps_4.jpg" class="screenshot">
         <img src="../assets/Screenshot_Puffercat_Apps_5.png" class="screenshot">
         <img src="../assets/Screenshot_Puffercat_Apps_6.png" class="screenshot">
         <img src="../assets/Screenshot_Puffercat_Apps_7.png" class="screenshot">

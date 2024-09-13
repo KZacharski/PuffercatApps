@@ -38,7 +38,7 @@
     </ion-row>
     <ion-row class="column-standard2">
       <ion-col>
-        <ion-button disabled="true" expand="full" shape="round" style="margin: 0px;">Coming Soon</ion-button>
+        <ion-button href="https://f2.puffercat.xyz/PuffercatApps/WallCat-1.0.apk" expand="full" shape="round" style="margin: 0px;" download="WallCat-latest.apk">Download</ion-button>
       </ion-col>
     </ion-row>
     <ion-row class="column-standard">
@@ -47,28 +47,36 @@
         A wallpaper app by Puffercat<br>
         <br>
         Includes collections:<br>
-        • Waves<br>
+        • Smudges<br>
         • Landscapes<br>
+        • Waves<br>
+        • Beam<br>
         • Glass<br>
         • Depth<br>
         • Flat shapes<br>
+        • Photo<br>
         • Aurora<br>
         • Glow<br>
-        <br>
-        More coming soon<br>
+        As well as some wallpapers I made for my other projects<br>
 <br>
     </ion-col>
     </ion-row>
     <ion-row class="column-standard">
       <ion-col>
-        <h4><strong>Screenshots (early development)</strong></h4>
+        <h4><strong>Screenshots</strong></h4>
         <div class="scrollScreenshots">
         <img src="../assets/Screenshot_WallCat_1.png" class="screenshot">
         <img src="../assets/Screenshot_WallCat_2.png" class="screenshot">
         <img src="../assets/Screenshot_WallCat_3.png" class="screenshot">
         <img src="../assets/Screenshot_WallCat_4.png" class="screenshot">
         <img src="../assets/Screenshot_WallCat_5.png" class="screenshot">
-        <img src="../assets/Screenshot_WallCat_6.jpg" class="screenshot">
+        <img src="../assets/Screenshot_WallCat_6.png" class="screenshot">
+        <img src="../assets/Screenshot_WallCat_7.png" class="screenshot">
+        <img src="../assets/Screenshot_WallCat_8.png" class="screenshot">
+        <img src="../assets/Screenshot_WallCat_9.png" class="screenshot">
+        <img src="../assets/Screenshot_WallCat_10.png" class="screenshot">
+        <img src="../assets/Screenshot_WallCat_11.png" class="screenshot">
+        <img src="../assets/Screenshot_WallCat_12.png" class="screenshot">
         </div>
         <br>
     </ion-col>
@@ -76,15 +84,11 @@
     <ion-row class="column-standard">
       <ion-col>
         <h4><strong>Links</strong></h4>
-        <a href="https://puffercat.gumroad.com" class="">Wallpapers</a>
+        <a href="https://wallcat.app" class="">Website</a>
         <br>
-        <a href="mailto:puffercatt+wallcat@gmail.com" class="">E-mail</a>
+        <a href="mailto:meow@wallcat.app" class="">E-mail</a>
         <br>
-        <a href="https://pufferrom.t.me" class="">Telegram channel (releases)</a>
-        <br>
-        <a href="https://puffercatchannel.t.me" class="">Telegram channel (general)</a>
-        <br>
-        <a href="https://puffercatrom.t.me" class="">Support group</a>
+        <a href="https://twitter.com/WallCatApp" class="">Twitter</a>
         <br>
         <br>
     </ion-col>
