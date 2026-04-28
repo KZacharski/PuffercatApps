@@ -24,7 +24,7 @@
         <ion-content class="ion-padding modalContent">
           <img src="../assets/Icon_Puffercat_Apps.png" class="logoAbout">
           <h1>Puffercat Apps</h1>
-          <h4>v1.0.0-b6 (Beta 6)</h4>
+          <h4>v1.0.0-b7 (Beta 7)</h4>
           <br>
           <br>
           <div class="tableLabel">
@@ -49,7 +49,7 @@
       <ion-label><a href="https://puffercat.t.me">Telegram profile</a></ion-label>
     </ion-item>
     <ion-item>
-      <ion-label><a href="mailto:puffercatt+pufferapps@gmail.com">E-Mail</a></ion-label>
+      <ion-label><a href="mailto:apps@puffercat.xyz">E-Mail</a></ion-label>
     </ion-item>
   </ion-list>
   <br>
@@ -65,10 +65,7 @@
       <ion-label><a href="https://ionicframework.com"><img src="../assets/Logo_Ionic.png" class="aboutFrameworkLogo"></a></ion-label>
     </ion-item>
     <ion-item>
-      <ion-label><a href="https://vercel.com/">
-        <img src="../assets/Logo_Vercel.png" class="vueLogoLight aboutFrameworkLogo">
-        <img src="../assets/Logo_Vercel_Dark.png" class="vueLogoDark aboutFrameworkLogo">
-      </a></ion-label>
+      <ion-label><a href="https://netlify.com"><img src="../assets/Logo_Netlify.png" class="aboutFrameworkLogo"></a></ion-label>
     </ion-item>
   </ion-list>
   <br><br><br>
@@ -105,7 +102,7 @@
 
     </ion-col>
     <ion-col class="download-column">
-      <ion-button shape="round" href="https://f2.puffercat.xyz/PuffercatApps/ThemeShowcase-1.0b.apk"><ion-icon :icon="arrowDown" /></ion-button>
+      <ion-button shape="round" href="https://f2.puffercat.xyz/PuffercatApps/WallCat-1.0.1.apk"><ion-icon :icon="arrowDown" /></ion-button>
     </ion-col>
   </ion-row>
         <ion-row class="column-standard">
@@ -124,7 +121,7 @@
 
     </ion-col>
     <ion-col class="download-column">
-      <ion-button shape="round" href="https://f2.puffercat.xyz/PuffercatApps/ThemeShowcase-1.0b.apk"><ion-icon :icon="arrowDown" /></ion-button>
+      <ion-button shape="round" href="https://f2.puffercat.xyz/PuffercatApps/ThemeShowcase-1.0b2.apk"><ion-icon :icon="arrowDown" /></ion-button>
     </ion-col>
   </ion-row>
 <ion-row class="column-standard">

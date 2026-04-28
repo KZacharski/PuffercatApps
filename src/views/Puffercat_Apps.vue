@@ -29,7 +29,7 @@
             <ion-column style="padding: 0px; margin: 0px;"><p class="size-appname" style="padding: 0px; margin: 0px;"><strong>Puffercat Apps</strong></p></ion-column>
           </ion-row>
           <ion-row style="padding: 0px;">
-            <ion-column><p class="size-appname-icon">version 1.0.0-b6 (Beta 6)</p></ion-column>
+            <ion-column><p class="size-appname-icon">version 1.0.0-b7 (Beta 7)</p></ion-column>
           </ion-row>
           <ion-row style="padding: 0px;">
             <ion-column><ion-icon :icon="logoPwa" class="size-appname-icon"/></ion-column>
@@ -73,11 +73,12 @@
     </ion-row>
     <ion-row class="column-standard">
       <ion-col>
-        <h4><strong>Changelog - 1.0.0-b5</strong></h4>
+        <h4><strong>Changelog - 1.0.0-b7</strong></h4>
         <ul>
-            <li>Fixed dependency security vulnerabilities</li>
-            <li>Added WallCat</li>
-            <li>Added new Puffercat Apps screenshots</li>
+            <li><a href="https://x.com/rauchg/status/1972669025525158031">Switched hosting providers from Vercel to Netlify</a></li>
+            <li>Added Alternate mirrors, AppGallery and Google Play links to WallCat and ThemeShowcase</li>
+            <li>Created an empty state page</li>
+            <li>Updated to Ionic 8</li>
         </ul>
     </ion-col>
     </ion-row>
@@ -117,7 +118,7 @@ The full catalog of apps created by Puffercat as well as ones currently in devel
         <br>
         <a href="https://twitter.com/@puffercatt" class="">Twitter</a>
         <br>
-        <a href="mailto:puffercatt+pufferapps@gmail.com" class="">E-mail</a>
+        <a href="mailto:apps@puffercat.xyz" class="">E-mail</a>
         <br>
         <a href="https://github.com/KZacharski/PuffercatApps" class="">GitHub repo</a>
         <br>
