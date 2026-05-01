@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
-import { RouteRecordRaw } from 'vue-router';
+import type { RouteRecordRaw, Router } from 'vue-router';
 import TabsPage from '../views/TabsPage.vue'
 import Apps from '../views/Apps.vue'
 import PufferIcons from '../views/PufferIcons.vue'
@@ -58,11 +58,6 @@ const routes: Array<RouteRecordRaw> = [
     component: Blurry_Wallpapers,
   },
   {
-    path: '/details/PufferIcons_Filled',
-    name: 'PufferIcons Filled',
-    component: PufferIcons_Filled,
-  },
-  {
     path: '/details/WallCat',
     name: 'WallCat',
     component: WallCat,
@@ -71,11 +66,6 @@ const routes: Array<RouteRecordRaw> = [
     path: '/details/BetterAperture',
     name: 'BetterAperture',
     component: BetterAperture,
-  },
-  {
-    path: '/details/Duo',
-    name: 'Duo',
-    component: Duo,
   },
   {
     path: '/details/ThemeShowcase',

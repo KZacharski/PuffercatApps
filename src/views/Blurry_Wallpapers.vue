@@ -40,9 +40,6 @@
       <ion-col>
         <ion-button href="https://cdn.puffercat.xyz/c/puffercat-apps/apks/Blurry_Wallpapers/blurry-wallpapers-1.0.4.apk" expand="full" shape="round" style="margin: 0px;" download="Blurry-wallpapers-latest.apk">Download</ion-button>
       </ion-col>
-      <ion-col>
-        <ion-button href="https://play.google.com/store/apps/details?id=xyz.puffercat.blurrywalls.android" expand="full" shape="round" style="margin: 0px;">Google Play</ion-button>
-      </ion-col>
     </ion-row>
     <ion-row class="column-standard">
       <ion-col>

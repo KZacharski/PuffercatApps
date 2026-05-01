@@ -24,7 +24,7 @@
         <ion-content class="ion-padding modalContent">
           <img src="../assets/Icon_Puffercat_Apps.png" class="logoAbout">
           <h1>Puffercat Apps</h1>
-          <h4>v1.0.0-b6 (Beta 6)</h4>
+          <h4>v1.0.0-b7 (Beta 7)</h4>
           <br>
           <br>
           <div class="tableLabel">
@@ -49,7 +49,7 @@
       <ion-label><a href="https://puffercat.t.me">Telegram profile</a></ion-label>
     </ion-item>
     <ion-item>
-      <ion-label><a href="mailto:puffercatt+pufferapps@gmail.com">E-Mail</a></ion-label>
+      <ion-label><a href="mailto:apps@puffercat.xyz">E-Mail</a></ion-label>
     </ion-item>
   </ion-list>
   <br>
@@ -65,10 +65,7 @@
       <ion-label><a href="https://ionicframework.com"><img src="../assets/Logo_Ionic.png" class="aboutFrameworkLogo"></a></ion-label>
     </ion-item>
     <ion-item>
-      <ion-label><a href="https://vercel.com/">
-        <img src="../assets/Logo_Vercel.png" class="vueLogoLight aboutFrameworkLogo">
-        <img src="../assets/Logo_Vercel_Dark.png" class="vueLogoDark aboutFrameworkLogo">
-      </a></ion-label>
+      <ion-label><a href="https://netlify.com"><img src="../assets/Logo_Netlify.png" class="aboutFrameworkLogo"></a></ion-label>
     </ion-item>
   </ion-list>
   <br><br><br>
@@ -88,49 +85,14 @@
           <ion-title size="large">Coming Soon</ion-title>
         </ion-toolbar>
       </ion-header>
-      <ion-grid>
-        <ion-row class="column-standard">
-    <ion-col size="auto" button @click="() => router.push('/details/PufferIcons_Filled')">
-      <img src="../assets/Icon_PufferIcons_Filled.png" class="icon">
-    </ion-col>
-    <ion-col size="auto" class="description-column" button @click="() => router.push('/details/PufferIcons_Filled')">
-        <ion-row>
-          <ion-column><h4 class="size-appname">PufferIcons Filled</h4></ion-column>
-        </ion-row>
-        <ion-row>
-          <ion-column button @click="() => router.push('/details/PufferIcons_Filled')"><ion-icon :icon="logoAndroid" class="size-appname-icon hidden-link"/></ion-column>
-        </ion-row>
-    </ion-col>
-    <ion-col>
-
-    </ion-col>
-    <ion-col class="download-column">
-      <ion-button shape="round" disabled="true"><ion-icon :icon="arrowDown" /></ion-button>
-    </ion-col>
-  </ion-row>
-  
-  <ion-row class="column-standard">
-    <ion-col size="auto" button @click="() => router.push('/details/Duo')">
-      <img src="../assets/Icon_Duo.png" class="icon">
-    </ion-col>
-    <ion-col size="auto" class="description-column" button @click="() => router.push('/details/Duo')">
-        <ion-row>
-          <ion-column><h4 class="size-appname">Duo</h4></ion-column>
-        </ion-row>
-        <ion-row>
-          <ion-column button @click="() => router.push('/details/Duo')"><ion-icon :icon="logoAndroid" class="size-appname-icon hidden-link"/></ion-column>
-        </ion-row>
-    </ion-col>
-    <ion-col>
-
-    </ion-col>
-    <ion-col class="download-column">
-      <ion-button shape="round" disabled="true"><ion-icon :icon="arrowDown" /></ion-button>
-    </ion-col>
-  </ion-row>
-
-  
-</ion-grid>
+        <ion-content class="ion-padding emptyStateContainer">
+        <div class="emptyStateContainer">
+        <div class="emptyStateContent">
+        <ion-icon slot="icon-only" :icon="timeOutline" class="emptyStateIcon"></ion-icon>
+        <h3 class="emptyStateText">No upcoming apps</h3>
+        </div>
+        </div>
+        </ion-content>
     </ion-content>
   </ion-page>
 </template>
@@ -153,8 +115,9 @@ import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonCol, IonGrid, 
     IonImg,
     IonLabel, IonPopover } from '@ionic/vue';
 import ExploreContainer from '@/components/ExploreContainer.vue';
-import { logoAndroid, arrowDown, logoPwa, ellipsisVertical } from 'ionicons/icons';
+import { logoAndroid, arrowDown, logoPwa, ellipsisVertical, timeOutline } from 'ionicons/icons';
 import { useRouter } from 'vue-router';
+import { Icon } from 'ionicons/dist/types/components/icon/icon';
 
 export default defineComponent ({
   methods: {
@@ -203,16 +166,39 @@ export default defineComponent ({
   display: inline;
 } .vueLogoDark {
   display: none;
-} @media (prefers-color-scheme: dark) {
-  .vueLogoLight {
-    display: none;
-  } .vueLogoDark {
-    display: inline;
-  }
 } .aboutFrameworkLogo {
   width: 175px;
 } .hidden-link {
     text-decoration-line: none;
     color: var(--ion-color-light-contrast);
   }
+  .emptyStateContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } .emptyStateContent {
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    justify-content: center;
+  } .emptyStateIcon {
+    font-size:125px;
+    color: #B7B7B7;
+  } .emptyStateText {
+    font-size: 30px;
+    color: #B7B7B7;
+  }
+ @media (prefers-color-scheme: dark) {
+  .vueLogoLight {
+    display: none;
+  } .vueLogoDark {
+    display: inline;
+  } .emptyStateIcon {
+    color: #4e4e4e;
+  } .emptyStateText {
+    color: #4e4e4e;
+  }
+} 
 </style>
