@@ -68,7 +68,7 @@
       <ion-label><a href="https://f2.puffercat.xyz/PuffercatApps/WallCat-1.0.1.apk">🇩🇪 2.puffercat.xyz - Contabo (Default)</a></ion-label>
     </ion-item>
     <ion-item>
-      <ion-label><a href="https://cdn.puffercat.xyz/puffercat-apps/apks/WallCat/WallCat-1.0.1.apk">🇳🇱 puffercat.xyz - DigitalOcean</a></ion-label>
+      <ion-label><a href="https://cdn.puffercat.xyz/c/puffercat-apps/apks/WallCat/WallCat-1.0.1.apk">🇳🇱 puffercat.xyz - DigitalOcean</a></ion-label>
     </ion-item>
     <ion-item>
       <ion-label><a href="https://deimos.pufferc.at/mirror/WallCat-1.0.1.apk">🇸🇪 deimos.pufferc.at - aeza</a></ion-label>
@@ -117,7 +117,7 @@
       <ion-label><a href="https://f2.puffercat.xyz/PuffercatApps/WallCat-1.0.apk">🇩🇪 2.puffercat.xyz - Contabo (Default)</a></ion-label>
     </ion-item>
     <ion-item>
-      <ion-label><a href="https://cdn.puffercat.xyz/puffercat-apps/apks/WallCat/WallCat-1.0.apk">🇳🇱 puffercat.xyz - DigitalOcean</a></ion-label>
+      <ion-label><a href="https://cdn.puffercat.xyz/c/puffercat-apps/apks/WallCat/WallCat-1.0.apk">🇳🇱 puffercat.xyz - DigitalOcean</a></ion-label>
     </ion-item>
     <ion-item>
       <ion-label><a href="https://deimos.pufferc.at/mirror/WallCat-1.0.apk">🇸🇪 deimos.pufferc.at - aeza</a></ion-label>

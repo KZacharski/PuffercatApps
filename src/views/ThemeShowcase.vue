@@ -66,7 +66,7 @@
       <ion-label><a href="https://f2.puffercat.xyz/PuffercatApps/ThemeShowcase-1.0b2.apk">🇩🇪 2.puffercat.xyz - Contabo (Default)</a></ion-label>
     </ion-item>
     <ion-item>
-      <ion-label><a href="https://cdn.puffercat.xyz/puffercat-apps/apks/ThemeShowcase/ThemeShowcase-1.0b2.apk">🇳🇱 puffercat.xyz - DigitalOcean</a></ion-label>
+      <ion-label><a href="https://cdn.puffercat.xyz/c/puffercat-apps/apks/ThemeShowcase/ThemeShowcase-1.0b2.apk">🇳🇱 puffercat.xyz - DigitalOcean</a></ion-label>
     </ion-item>
     <ion-item>
       <ion-label><a href="https://deimos.pufferc.at/mirror/ThemeShowcase-1.0b2.apk">🇸🇪 deimos.pufferc.at - aeza</a></ion-label>
@@ -115,7 +115,7 @@
       <ion-label><a href="https://f2.puffercat.xyz/PuffercatApps/ThemeShowcase-1.0b.apk">🇩🇪 2.puffercat.xyz - Contabo (Default)</a></ion-label>
     </ion-item>
     <ion-item>
-      <ion-label><a href="https://cdn.puffercat.xyz/puffercat-apps/apks/ThemeShowcase/ThemeShowcase-1.0b.apk">🇳🇱 puffercat.xyz - DigitalOcean</a></ion-label>
+      <ion-label><a href="https://cdn.puffercat.xyz/c/puffercat-apps/apks/ThemeShowcase/ThemeShowcase-1.0b.apk">🇳🇱 puffercat.xyz - DigitalOcean</a></ion-label>
     </ion-item>
     <ion-item>
       <ion-label><a href="https://deimos.pufferc.at/mirror/ThemeShowcase-1.0b.apk">🇸🇪 deimos.pufferc.at - aeza</a></ion-label>
