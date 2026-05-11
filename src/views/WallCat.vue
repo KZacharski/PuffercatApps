@@ -74,6 +74,9 @@
       <ion-label><a href="https://deimos.pufferc.at/mirror/WallCat-1.0.1.apk">🇸🇪 deimos.pufferc.at - aeza</a></ion-label>
     </ion-item>
     <ion-item>
+      <ion-label><a href="https://c.wadowice.ovh/index.php/s/wallcat101">🇵🇱 wadowice.ovh - My home (pls dont ddos 🥺)</a></ion-label>
+    </ion-item>
+    <ion-item>
       <ion-label><a href="https://www.icloud.com/iclouddrive/0d2SL-WxHw7dBwlV_t5ZPAEpQ#WallCat-1.0">iCloud Drive</a></ion-label>
     </ion-item>
     <ion-item>
@@ -121,6 +124,9 @@
     </ion-item>
     <ion-item>
       <ion-label><a href="https://deimos.pufferc.at/mirror/WallCat-1.0.apk">🇸🇪 deimos.pufferc.at - aeza</a></ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label><a href="https://c.wadowice.ovh/index.php/s/wallcat10">🇵🇱 wadowice.ovh - My home (pls dont ddos 🥺)</a></ion-label>
     </ion-item>
     <ion-item>
       <ion-label><a href="https://www.icloud.com/iclouddrive/071WiIXKqfEbErB8uwMpQsZ_A#WallCat-1">iCloud Drive</a></ion-label>

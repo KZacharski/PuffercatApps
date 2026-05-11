@@ -72,6 +72,9 @@
       <ion-label><a href="https://deimos.pufferc.at/mirror/ThemeShowcase-1.0b2.apk">🇸🇪 deimos.pufferc.at - aeza</a></ion-label>
     </ion-item>
     <ion-item>
+      <ion-label><a href="https://c.wadowice.ovh/index.php/s/themeshowcase1b2">🇵🇱 wadowice.ovh - My home (pls dont ddos 🥺)</a></ion-label>
+    </ion-item>
+    <ion-item>
       <ion-label><a href="https://www.icloud.com/iclouddrive/0dc1MKbkknpFfAndorZ-BBdTA#ThemeShowcase-1">iCloud Drive</a></ion-label>
     </ion-item>
     <ion-item>
@@ -119,6 +122,9 @@
     </ion-item>
     <ion-item>
       <ion-label><a href="https://deimos.pufferc.at/mirror/ThemeShowcase-1.0b.apk">🇸🇪 deimos.pufferc.at - aeza</a></ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label><a href="https://c.wadowice.ovh/index.php/s/themeshowcase1b">🇵🇱 wadowice.ovh - My home (pls dont ddos 🥺)</a></ion-label>
     </ion-item>
     <ion-item>
       <ion-label><a href="https://www.icloud.com/iclouddrive/06esiWCsrhr8f2YHXx0UjIiSA#ThemeShowcase-1">iCloud Drive</a></ion-label>
