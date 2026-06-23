@@ -1,0 +1,10 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+        "namespace": "android_app",
+        "package_name": "xyz.puffercat.apps",
+        "sha256_cert_fingerprints": [
+            "78:20:A7:29:83:44:A1:BB:91:B4:76:3A:B3:57:FA:64:6C:5E:D9:D3:9C:5D:8E:4F:6A:62:84:DA:6F:71:EC:FF"
+        ]
+    }
+}]
